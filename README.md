@@ -1,8 +1,4 @@
-# wcgi-rust-template
-
-[![Continuous integration](https://github.com/wasmerio/wcgi-rust-template/workflows/Continuous%20Integration/badge.svg?branch=main)](https://github.com/wasmerio/wcgi-rust-template/actions)
-
-([API Docs][api-docs])
+# WCGI Template for PHP
 
 This is a template project for creating a WCGI-compatible package that can be
 published to WAPM.
@@ -46,9 +42,6 @@ This project is licensed under either of
 
 at your option.
 
-It is recommended to always use [`cargo crev`][crev] to verify the
-trustworthiness of each of your dependencies, including this one.
-
 ### Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally
@@ -56,9 +49,4 @@ submitted for inclusion in the work by you, as defined in the Apache-2.0
 license, shall be dual licensed as above, without any additional terms or
 conditions.
 
-The intent of this crate is to be free of soundness bugs. The developers will
-do their best to avoid them, and welcome help in analysing and fixing them.
-
-[api-docs]: https://wasmerio.github.io/wcgi-rust-template
-[crev]: https://github.com/crev-dev/cargo-crev
-[install]:
+[install]: https://docs.wasmer.io/ecosystem/wasmer/getting-started
