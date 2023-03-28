@@ -24,10 +24,10 @@ $ wasmer login $MY_API_TOKEN
 $ wasmer publish .
 ```
 
-You can also use `wasmer run` to test things locally.
+You can also use `wasmer run-unstable` to test things locally.
 
 ```console
-$ wasmer run .
+$ wasmer run-unstable .
 INFO run: wasmer_wasix::runners::wcgi::runner: Starting the server address=127.0.0.1:8000 command_name="php"
 ```
 
