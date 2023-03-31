@@ -1,5 +1,5 @@
 [package]
-name = "Michael-F-bryan/wcgi-python-template"
+name = "wasmer/wcgi-php-template"
 version = "0.1.0"
 description = "A PHP template for WCGI applications"
 license = "MIT OR Apache-2.0"
@@ -15,7 +15,13 @@ abi = "wasi"
 name = "php"
 runner = "wcgi"
 module = "php"
-annotations = { wcgi = { dialect = "rfc-3875" } }
+
+[command.annotations.wcgi]
+dialect = "rfc-3875"
+
+[command.annotations.wasi]
+atom = "php"
+env = ["DOCUMENT_ROOT=/app", "SCRIPT_FILENAME=/app/index.php"]
 
 [fs]
 "app" = "app"

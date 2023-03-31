@@ -14,7 +14,7 @@ $ curl https://get.wasmer.io -sSfL | sh
 Now, start writing your PHP code.
 
 ```console
-$ echo '<?php phpinfo(); ?>' > ./app/index.php
+$ echo '<?php print("Hello, World!"); ?>' > ./app/index.php
 ```
 
 At this point, you would normally publish the package to WAPM.
